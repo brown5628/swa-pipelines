@@ -7,5 +7,6 @@ setuptools.setup(
         "dagster==0.13.12",
         "dagit==0.13.12",
         "pytest",
+        "gcloud",
     ],
 )
