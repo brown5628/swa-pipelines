@@ -1,0 +1,6 @@
+steps:  
+  - name: 'gcr.io/cloud-builders/gsutil'  
+    args: ['cp', 'small-world-analytics-secrets/env_variables.yaml', '.']
+  - name: "gcr.io/cloud-builders/gcloud"
+    args: ["app", "deploy"]
+timeout: "1600s"
