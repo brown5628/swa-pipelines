@@ -8,7 +8,7 @@ def get_name():
 
 @op
 def hello(name: str):
-    print(f"Hello, {name}!")
+    print(f"Hello, {name}! This is dagster.")
 
 
 @job
