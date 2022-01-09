@@ -2,3 +2,4 @@
 /.logs_queue
 /.telemetry
 env_variables.yaml
+env_variables.sh
